@@ -107,7 +107,7 @@
 	  String SQL = "select content from info where divi=1";
 	  Class.forName("com.mysql.jdbc.Driver");
 	  String url = "jdbc:mysql://localhost:3306/test3?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC";
-	  con = DriverManager.getConnection(url,"root","u1352021");
+	  con = DriverManager.getConnection(url,"root","**");
 	  stmt = con.createStatement();
 	  rs= stmt.executeQuery(SQL); 
 	%> <!-- 여기부터 테이블 만들고 추가하면서 while 도는곳 여기에 1주일씀-->
@@ -153,7 +153,7 @@
 	  String SQL = "select content from info where divi=2";
 	  Class.forName("com.mysql.jdbc.Driver");
 	  String url = "jdbc:mysql://localhost:3306/test3?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC";
-	  con = DriverManager.getConnection(url,"root","u1352021");
+	  con = DriverManager.getConnection(url,"root","**");
 	  stmt = con.createStatement();
 	  rs= stmt.executeQuery(SQL); 
 	%>
