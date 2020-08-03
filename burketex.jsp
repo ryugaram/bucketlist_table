@@ -11,7 +11,7 @@
  try{
   Class.forName("com.mysql.jdbc.Driver");
   String url = "jdbc:mysql://localhost:3306/test3?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC";
-  Connection con = DriverManager.getConnection(url,"root","u1352021");
+  Connection con = DriverManager.getConnection(url,"root","**");
   Statement stat = con.createStatement();
 
   String query = "INSERT INTO info(content,divi) VALUES('"+memo+"','"+radiobox+"')";
